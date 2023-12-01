@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+</head>
+<body>
+    <header id="header">
+           
+            <ul class="navigation">
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Pricing</a></li>
+        </ul>
+        <a href="#" class="account">Account</a>
+        <h2 class="txt">DASTAK</h2>
+        <p class="basetxt">the ultimate drone delivery Services</p>
+
+    </header>
+    <section>
+        <img src="fr2.png" id="fr2">
+        <img src="sidel.png" id="side">
+        <img src="frbuil.png" id="frbuil">
+        <img src="base.png" id="base">
+        
+    </section>
+    <div class="sec">
+        <p id="heading">DASTAK</p>
+        <p id="about">DASTAK is a cutting edge drone delivery service which uses your GPS data to deliver your items at your location within very short span of time. It uses a interconnection of 16 sattellites using GPS,GLONASS and BAIDEOU to provide accurate and relaible positioning so that your parcel stays safe even in bad whether conditions.</p>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script>
+        gsap.to(".txt",{
+            scrollTrigger : {
+                scrub: true
+            },
+            y:600,
+            
+            
+
+        });
+        gsap.to(".basetxt",{
+            scrollTrigger : {
+                scrub: true
+            },
+            y:600,
+            
+            
+
+        });
+        gsap.to("#fr2",{
+            scrollTrigger : {
+                scrub: true
+            },
+            y:700
+
+
+        });
+        gsap.to("#side",{
+            scrollTrigger : {
+                scrub: true
+            },
+            y:500
+
+
+        });
+        gsap.to("#frbuil",{
+            scrollTrigger : {
+                scrub: true
+            },
+            y:250
+
+
+        });
+    </script>
+</body>
+</html>
